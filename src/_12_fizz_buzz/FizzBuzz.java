@@ -3,6 +3,7 @@
 
 package _12_fizz_buzz;
 
+import javax.swing.JOptionPane;
 
 /**
 * Fizz Buzz
@@ -27,5 +28,8 @@ package _12_fizz_buzz;
 
 public class FizzBuzz {
 
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null, "Welcome to FizzBuzz, a children's game where you count from 1 to 20. \nEasy, right? But here's the catch, every number divisible by 5 is \nreplaced with the word buzz, and every number that is divisible by \n3 is replaced with fizz. If the number is divisible by both 3 and 5, it \nis replaced with fizzbuzz!");
+}
 }
 
